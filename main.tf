@@ -30,7 +30,7 @@ resource "btp_subaccount_entitlement" "cf_runtime" {
   subaccount_id = btp_subaccount.dev.id
   service_name  = "APPLICATION_RUNTIME"
   plan_name     = "MEMORY"
-  amount        = 32
+  amount        = 16
 }
 
 # 5. Provision the Environment
